@@ -39,3 +39,9 @@ L'argument **-t** sers à trier le document en fonction des villes les plus trav
 Cet histogramme regroupé (histogramme vertical mais chaque donnée possède 2 colonnes verticals) va afficher les 10 villes qui ont été le plus parcourus par les chauffeurs de façon alphabétique. Le graphique va afficher en abscisse le nom des villes et en ordonnée le nombre de trajets. 
 
 Chaque ville est composée de barres verticales, une affiche le nombre de trajet total qui traverse la ville et une qui affiche le nombre de fois que la ville a été le départ d'un trajet.
+
+## L'argument "-s" :
+
+L'argument **-s** sers à afficher la distance moyenne, minimale et maximale pour chaque trajet. 
+
+Ce graphique de type min max moyenne va créer 3 courbes, une pour la distance minimale, une pour la distance maximale et une pour la distance moyenne. On va récupérer les 3 données de chaque trajet, ce graphique va afficher les 50 premières trajets triés par "trajet maximal - trajet minimal ", autrement dit on va privilégier les trajets dont les étapes se rapprochent le plus en matière de distance. Le graphique va afficher en abscisse les identifiants du trajet et en ordonnée les kilométrages.
