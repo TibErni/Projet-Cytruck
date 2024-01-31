@@ -20,17 +20,29 @@ L'argument **-d1** sers à trier le document en fonction du nombre de trajets r�
 
 Cet histogramme horizontal va afficher les 10 conducteurs ayant fait le plus de trajet de façon décroissante. Le graphique va afficher en abscisse le nombre de trajets effectués et en ordonnée les noms des conducteurs. 
 
+Exmeple de graphique -d1 :
+
+![](https://media.discordapp.net/attachments/1098669939398811790/1202328304670232586/-d1.png?ex=65cd0e7e&is=65ba997e&hm=3374e36b2fca49367e3dcbccda3c7c94660d53cf5aa8b8ec319ea0da31558cde&=&format=webp&quality=lossless)
+
 ## L'argument "-d2" :
 
 L'argument **-d2** sers à trier le document en fonction de la plus grande distance totale parcourue par les chauffeurs.
 
 Cet histogramme horizontal va afficher les 10 conducteurs ayant parcourus le plus de distance cumulée de façon décroissante. Le graphique va afficher en abscisse la distance totale parcourue et en ordonnée les noms des conducteurs.
 
+Exmeple de graphique -d2 :
+
+![](https://media.discordapp.net/attachments/1098669939398811790/1202224435487326208/image.png?ex=65ccadc1&is=65ba38c1&hm=d8754e2226ca09689b74fd57f73b3fd92a8330ffd5c75da75a82d5fa0dcde90a&=&format=webp&quality=lossless&width=796&height=597)
+
 ## L'argument "-l" :
 
 L'argument **-l** sers à trier le document en fonction des trajets les plus longs, c'est-à-dire l'addition de la distance de toutes les étapes de ce trajet. Chaque trajet a un identifiant
 
 Cet histogramme vertical va afficher les 10 trajets les plus longs de façon croissante en fonction de l'identifiant du trajet. Le graphique va afficher en abscisse l'identifiant du trajet et en ordonnée la distance en kilomètres du trajet.
+
+Exmeple de graphique -l :
+
+![](https://media.discordapp.net/attachments/1098669939398811790/1202224688617771018/image.png?ex=65ccadfe&is=65ba38fe&hm=82659c73c3c4e0fe88aa9d767139a25d8b37ea682d9ff1b15165a47a7a676bd1&=&format=webp&quality=lossless&width=796&height=597)
 
 ## L'argument "-t" :
 
