@@ -6,7 +6,14 @@ Ce readme va servir à présenter le fonctionnement de notre projet.
 
 ## Fonctionnement de Cytruck :
 
-**Pour exécuter le programme, le chemin du document CSV que l'on souhaite traiter doit être écrit en premier argument.**
+**Pour exécuter le programme, il existe 2 possibilités :** 
+
+Pour chaque étape il faut être dans le répertoire ProjetCyTruck de notre projet.
+
+- La première méthode pour exécuter notre projet est d'entrer la commande : **" ./cytruck.sh -f data.csv -d1 "**, (la commande -d1 est un exemple de traitement, on peut en demander un autre.)
+
+  ![](https://media.discordapp.net/attachments/1098669939398811790/1202680267823784037/methode_1.png?ex=65ce5648&is=65bbe148&hm=83a692610cb06f6dfe457b821ad7306bfe14f969650cf72475b1b48799054874&=&format=webp&quality=lossless)
+- La seconde méthode se déroule en 3 temps : en rentre la commande :**"./cytruck.sh "**, on va alors demander le chemin vers le document à traiter, on rentre donc la commande **" data.csv "**, le programme va ensuite nous demander quel traitment on souhaite faire et on rentre par exemple : **" -d1 -d2 "**.
 
 Ce projet comporte plusieurs commandes/traitement dans le but de trier le document CSV, voici la liste :
 
@@ -52,8 +59,12 @@ Cet histogramme regroupé (histogramme vertical mais chaque donnée possède 2 c
 
 Chaque ville est composée de barres verticales, une affiche le nombre de trajet total qui traverse la ville et une qui affiche le nombre de fois que la ville a été le départ d'un trajet.
 
+**IMPLÉMENTATION PAS TERMINÉE**
+
 ## L'argument "-s" :
 
 L'argument **-s** sers à afficher la distance moyenne, minimale et maximale pour chaque trajet. 
 
 Ce graphique de type min max moyenne va créer 3 courbes, une pour la distance minimale, une pour la distance maximale et une pour la distance moyenne. On va récupérer les 3 données de chaque trajet, ce graphique va afficher les 50 premières trajets triés par *"trajet maximal - trajet minimal "*, autrement dit on va privilégier les trajets dont les étapes se rapprochent le plus en matière de distance. Le graphique va afficher en abscisse les identifiants du trajet et en ordonnée les kilométrages.
+
+**IMPLÉMENTATION PAS TERMINÉE**
