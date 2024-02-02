@@ -59,6 +59,7 @@ Cet histogramme regroupé (histogramme vertical mais chaque donnée possède 2 c
 
 Chaque ville est composée de barres verticales, une affiche le nombre de trajet total qui traverse la ville et une qui affiche le nombre de fois que la ville a été le départ d'un trajet.
 
+L'AVL pour ce traitement fonctionne avec une complexité log(n), mais la sortie attendu n'est pas le bon nombre de ville trouvé.
 **IMPLÉMENTATION PAS TERMINÉE**
 
 ## L'argument "-s" :
