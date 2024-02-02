@@ -13,7 +13,7 @@ Pour chaque étape il faut être dans le répertoire ProjetCyTruck de notre proj
 - La première méthode pour exécuter notre projet est d'entrer la commande : **" ./cytruck.sh -f data.csv -d1 "**, (la commande -d1 est un exemple de traitement, on peut en demander un autre.)
 
   ![](https://media.discordapp.net/attachments/1098669939398811790/1202680267823784037/methode_1.png?ex=65ce5648&is=65bbe148&hm=83a692610cb06f6dfe457b821ad7306bfe14f969650cf72475b1b48799054874&=&format=webp&quality=lossless)
-- La seconde méthode se déroule en 3 temps : en rentre la commande :**"./cytruck.sh "**, on va alors demander le chemin vers le document à traiter, on rentre donc la commande **" data.csv "**, le programme va ensuite nous demander quel traitment on souhaite faire et on rentre par exemple : **" -d1 -d2 "**.
+- La seconde méthode se déroule en 3 temps : en rentre la commande :**"./ProjetCyTruck.sh "**, on va alors demander le chemin vers le document à traiter, on rentre donc la commande **" data.csv "**, le programme va ensuite nous demander quel traitment on souhaite faire et on rentre par exemple : **" -d1 -d2 "**.
 
 Ce projet comporte plusieurs commandes/traitement dans le but de trier le document CSV, voici la liste :
 
